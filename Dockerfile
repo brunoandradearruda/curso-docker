@@ -7,7 +7,7 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copie os arquivos da aplicação para o diretório de trabalho do Nginx
 COPY index.html /usr/share/nginx/html/
 
-# Exponha a porta 80, que é a porta padrão do Nginx
+#Porta 80,do Nginx
 EXPOSE 80
 
 # Comando para iniciar o Nginx em segundo plano
