@@ -12,13 +12,12 @@ docker build -t brunoandradearruda/posunipedocker:1.0.0 .
 docker run -d -p 8080:80 --rm --name=exemplo-docker brunoandradearruda/posunipedocker:1.0.0
 
 
-# Enviando a imagem para o Docker Hub:
+# Realizando login no Docker Hub:
  
 docker login -u brunoandradearruda
  
 
-
-# Crie o repositório CHANGE_HERE/exemplo-curso-docker no Docker Hub antes de enviar a imagem
+# Enviar aquivos para o repositório do DockerHub
  
 docker push brunoandradearruda/posunipedocker:1.0.0
 ```
