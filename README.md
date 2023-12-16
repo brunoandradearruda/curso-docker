@@ -20,7 +20,11 @@ docker login -u brunoandradearruda
 # Enviar aquivos para o repositório do DockerHub
  
 docker push brunoandradearruda/posunipedocker:1.0.0
-```
+
+
+# Execução da aplicação
+
+http://localhost:8080/
 
 
 
