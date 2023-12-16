@@ -1,7 +1,7 @@
-# Use a imagem base do Nginx
+# Imagem base do Nginx
 FROM nginx:alpine
 
-# Remova o conteúdo padrão do diretório de trabalho do Nginx
+# Conteúdo padrão do diretório de trabalho do Nginx
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copie os arquivos da aplicação para o diretório de trabalho do Nginx
